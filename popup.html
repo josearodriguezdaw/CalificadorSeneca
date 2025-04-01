@@ -1,0 +1,27 @@
+<!-- popup.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extensión</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <label for="nota">Nota nº:</label>
+    <input default="1" type="number" id="nota" name="nota" min="0">
+    
+    <label for="instrumento">Instrumento:</label>
+    <select id="instrumento" name="instrumento">
+    </select>
+    <label for="subtipo">Subtipo:</label>
+    <select id="subtipo" name="subtipo">
+        <!-- Las opciones se cargarán dinámicamente aquí -->
+    </select>
+    <label for="notas">Notas:</label>
+    <textarea id="notas" name="notas" rows="10"></textarea>
+    <button id="addNotes">Añadir Notas</button>
+
+    <script src="popup.js"></script>
+</body>
+</html>
